@@ -1,0 +1,25 @@
+.cyrilic ol{
+    list-style-type: none;
+}
+.cyrilic li:nth-child(1)::before { content: 'а)'; }
+.cyrilic li:nth-child(2)::before { content: 'б)'; }
+
+.none1 {
+    counter-reset: li;
+}
+.none1 ol ol  {
+    list-style: none;
+}
+.none1 li li li:before{
+    counter-increment: li;
+    content: counters(li, ".") ". ";
+} 
+/*
+.none2 {
+    list-style: none;
+    counter-reset: li;
+}
+ .none2 li:before{
+    counter-increment: li;
+    content: counters(li,".") ". ";
+} 

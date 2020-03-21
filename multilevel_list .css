@@ -1,10 +1,8 @@
-
-ol {
-
+#revers {
 list-style: none; 
 counter-reset: li; 
 }
-li:before {
+#revers li:before {
 counter-increment: li; 
-content: counters(li,".") ". "; 
+content: counters(li,".") "."; 
 }

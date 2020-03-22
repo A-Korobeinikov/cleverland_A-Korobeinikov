@@ -4,8 +4,9 @@ body{
     background-color: gray;
 }
 
-.cyrilic ol{
-    list-style-type: none;
+.cyrilic ol {
+    list-style: none;
+    counter-reset: li;
 }
 .cyrilic li:nth-child(1)::before { content: 'а)'; }
 .cyrilic li:nth-child(2)::before { content: 'б)'; }

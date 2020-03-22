@@ -8,8 +8,8 @@ body{
     list-style: none;
     counter-reset: li;
 }
-.cyrilic li:nth-child(1)::before { content: 'а)'; }
-.cyrilic li:nth-child(2)::before { content: 'б)'; }
+.cyrilic li li:nth-child(1)::before { content: 'а)'; }
+.cyrilic li li:nth-child(2)::before { content: 'б)'; }
 
 .none1 {
     counter-reset: li;

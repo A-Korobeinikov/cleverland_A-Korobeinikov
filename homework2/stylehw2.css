@@ -30,3 +30,7 @@ body{
     counter-increment: i;
     content: counters(i,".") ". ";
 } 
+p {
+    font-size: 24px;
+    font-family: sans-serif;
+}

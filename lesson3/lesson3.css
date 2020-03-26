@@ -1,0 +1,13 @@
+caption{
+    font
+    font-size: 18px;
+    font-family: serif;
+    font-style: italic;
+}
+
+#back1{
+    background-color: #888888;
+}
+table{
+    padding: 5;
+}

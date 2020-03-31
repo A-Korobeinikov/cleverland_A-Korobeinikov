@@ -1,0 +1,28 @@
+body{
+    background-color: burlywood;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+td{
+    text-align: center;
+}
+.link {
+    font-size: 120%;
+    text-align: center; 
+}
+.link a:link {
+    color: red;
+    text-decoration: none;
+}
+.link a :visited {
+    color:#192c8f;
+}
+.link a:hover {
+    color: red;
+}
+footer {
+    border: 1px solid;
+    font-size: 70%;
+    text-align: center;
+    margin: 0 20px;
+}

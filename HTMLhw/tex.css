@@ -1,0 +1,9 @@
+body{
+    color: chocolate;
+    font-family: serif;
+    font-size: 20px;
+}
+span{
+    vertical-align: -5px;
+    color: black;
+}

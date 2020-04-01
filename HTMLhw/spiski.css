@@ -1,0 +1,7 @@
+ul{
+    counter-reset: li;
+}
+li:before{
+counter-increment: li;
+counter-reset: (li,".");
+}

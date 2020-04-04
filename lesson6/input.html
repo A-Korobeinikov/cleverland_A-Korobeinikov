@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+        <legend>
+            Сведения о пользователе
+        </legend>
+        <form action="" name="users">
+            <p>Ваше имя: 
+                <input type="text" name="userName" size="30">
+            </p>
+            <p>
+                Ваш возраст:
+                <input type="text" name="uaserAge" list="age">
+                <datalist id="age">
+                    <option value="1-10 лет"></option>
+                    <option value="11-16 лет"></option>
+                    <option value="17-22 года"></option>
+                    <option value="23-35 лет"></option>
+                    <option value="35-50 лет"></option>
+                    <option value="Старше 50 лет"></option>
+                </datalist>
+            </p>
+            <p>
+                Какую операцилнную систему используете?
+                <select name="os" id="">
+                    <option value="1">Windows</option>
+                    <option value="2">Debian</option>
+                    <option value="3">MacOS</option>
+                    <option value="4">Linux</option>
+                 </select>
+            </p>
+            <p>
+                Какие браузеры вы используете? <br>
+                <label>
+                    <input type="checkbox" checked name="MSEdge" value="1" id=""> Microsoft Edge
+                </label>
+                <label>
+                    <input type="checkbox" name="Gl" value="1" id="">GoogleChrome
+                </label>
+                <label>
+                    <input type="checkbox" name="Mz" value="1" id="">Moxila Fierfox
+                </label>
+                <label>
+                    <input type="checkbox" name="Opera" value="1" id="">Opera
+                </label>
+                <label>
+                    <input type="checkbox" name="MAc" value="1" id="">Safari
+                </label>
+                   <label>
+                       <input type="checkbox" name="Inc" value="1" id="">Другое
+                   </label>
+                
+            </p>
+            <p>
+                Ваша работа связана с компьютером
+                <input type="radio" name="Yes" id="">Да
+                <input type="radio" name="Yes" id="">Нет
+            </p>
+            <p>
+                Дополнительная информация<br>
+                <textarea name="inf" id="" cols="30" rows="20" placeholder="Введите доп. информацию"></textarea>
+            </p>
+            <p>
+                <input type="submit" value="Отправить">
+                <input type="reset" value="Очистить">
+            </p>
+            
+        </form>
+    </fieldset>
+</body>
+</html>

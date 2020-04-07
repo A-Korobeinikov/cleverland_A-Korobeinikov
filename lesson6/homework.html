@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <h1>Запись на курсы</h1>
+        <hr>
+        <p> Имя: <br>
+            <input type="text">
+        </p> 
+        <p>Язык програмирования: <br>
+            <input type="radio"> С++ <br>
+            <input type="radio" name="" id="" >PHP <br>
+            <input type="radio" name="" id="">Python <br>
+        </p>
+        <p>Дополнительная информация: <br>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+        </p>
+        <p>Секретное слово: <br>
+            <input type="password" pattern="[A-Za-z]{6,}\d{2,}" title="Пароль должен содержать Залавные буквы и цифры">
+        </p>
+        <input type="submit" value="Отправить">
+        <input type="reset" value="Очистить">
+    </form>   
+    <hr>
+    <fieldset>
+        <legend>
+            Паратметры автомобиля
+        </legend>
+            <form action="">
+                <p>Марка автомобиля:
+                    <input type="text">
+                </p>
+                <P>
+                    Объем двигателя, см<sup>3</sup>
+                    <input type="text" placeholder="1900">
+                </P>
+                <p>
+                   Область
+                   <select name="" id="">
+                       <option value="">Брестская</option>
+                       <option value="">Витебская</option>
+                       <option value="">Могилевская</option>
+                       <option value="">Гомельская</option>
+                       <option value="">Гродненская</option>
+                       <option value="">Минская</option>
+                   </select>
+                </p>
+                <p>
+                    Тип КПП: <br>
+                    <input type="radio" name="" id="">Автомат <br>
+                    <input type="radio" name="" id="">Механика
+                </p>
+                <p>
+                    Двигатель: <br>
+                    <input type="checkbox" name="" id="">Электро <br>
+                    <input type="checkbox" name="" id="">Дизель <br>
+                    <input type="checkbox" name="" id="">Бензин <br>
+                    <input type="checkbox" name="" id="">Пропан-бутан <br>
+                    <input type="checkbox" name="" id="">Метан <br>
+                </p>
+                <p>
+                    Описание <br>
+                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                </p>
+                <input type="submit" value="Отправить">
+                <input type="reset" value="Очистить">
+            </form>
+    </fieldset> 
+    <hr>
+    <form action="">
+        <fieldset>
+            <legend>
+            Регистрационная форма:
+            </legend>
+            <p>Имя:
+                <input type="text">
+            </p>
+            <p>Укажите возраст:
+                <input type="text" list="age">
+                <datalist id="age">
+                    <option value="10-15 лет"></option>
+                    <option value="15-20 лет"></option>
+                    <option value="30-20 лет"></option>
+                    <option value="30-40 лет"></option>
+                    <option value="старше 40 лет"></option>
+                </datalist>
+            </p>
+            <p>Укажите пол:
+                Мужской<input type="radio" name="yes" id="" >
+                Женский<input type="radio" name="yes" id="" >
+            </p>
+            <p>
+                Область проживания
+                <select name="" id="">
+                    <option value="">Брестская</option>
+                    <option value="">Витебская</option>
+                    <option value="">Могилевская</option>
+                    <option value="">Гомельская</option>
+                    <option value="">Гродненская</option>
+                    <option value="">Минская</option>
+                </select>
+             </p>
+            <p>
+                Владение языками:
+                Русский<input type="checkbox" name="" id="">
+                Белорусский<input type="checkbox" name="" id="">
+                Английский<input type="checkbox" name="" id="">
+            </p>
+            <p>
+                Фото профиля:
+                <input type="file" name="" id=""> 
+            </p>
+            <p>
+                Введите логин:
+                <input type="text" placeholder="Login">
+            </p>
+            <p>
+                Введите Пароль:
+                <input type="text" placeholder="password">
+            </p>
+            <p>
+                Повторите Пароль:
+                <input type="text" placeholder="password"></p>
+                
+        </fieldset>
+            <input type="submit" value="Отправить">
+            <input type="reset" value="Очистить">
+     </form>
+     <hr>
+     <form action="">
+         <textarea name="" id="" cols="40" rows="7" maxlength="280" placeholder="Введите сообщение размером в 7 строк по 40 символов"></textarea>
+        <br> <input type="submit" value="Отправить">
+     </form>
+</body>
+</html>

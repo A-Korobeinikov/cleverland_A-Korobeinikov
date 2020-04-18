@@ -1,0 +1,32 @@
+
+   body{
+       margin: 50px;
+   }
+   h1{
+       text-align: center;
+       font-family: Arial, Helvetica, sans-serif;
+       color: #3014b4;
+       font-size: 18pt;
+       text-shadow: 1px 1px 0px #fff, 3px 3px 0px #d3d7dc;
+}
+    ul{
+       margin-left: 50px;
+
+    }
+    li{
+       font-family: Georgia, 'Times New Roman', Times, serif;
+       font-style: italic;
+       font-size: 12pt;
+       color: #3212af;
+    }
+    .class_red{
+       text-align: center;
+       font-family: comic sans ms, times new roman;
+       font-size: 16pt;
+       color: red;
+       text-shadow: 1px 1px 0px #fff, 3px 3px 0px #d3d7dc;
+    }
+    p{
+       font-family: Verdana, Geneva, Tahoma, sans-serif;
+       font-size: 12pt;
+    }

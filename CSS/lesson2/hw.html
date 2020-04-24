@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            border: 1px solid black;
+            width: 150px;
+            height: 50px;
+            position: relative;
+            margin: 0 auto;
+            margin-bottom: 15px;
+        }
+         div::before, div::after {
+            content: '';
+            position: absolute;         
+        }
+        div::after{
+            width: 10px;
+            height: 20px;
+            background: darkblue;
+            right: -10px;
+            top: 15px;
+        }
+        
+        .top::before { /* Красная батарейка */
+            width: 50px;
+            height: 100%;
+            background-color: #ED1C24;
+         }
+         .middle::before { /* Красная батарейка */
+            width: 100px;
+            height: 100%;
+            background: #ED1C24;
+         }
+         .bottom::before { /* Красная батарейка */
+            width: 150px;
+            height: 100%;
+            background: #ED1C24;
+         }
+
+
+                 
+        
+    </style>
+</head>
+<body>
+    <div class="top"></div>
+    <div class="middle"></div>
+    <div class="bottom"></div>
+</body>
+</html>

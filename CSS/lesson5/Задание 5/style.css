@@ -1,0 +1,28 @@
+table {
+    width: 700px;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+td, th {
+    border: 1px solid black;
+    padding: 7px;
+    background-color: #f0f8ff;    
+}
+input[type="text"], textarea {
+    width: 450px;
+}
+caption {
+    border: 1px solid #f00;
+    box-shadow: 0 0 3px #f00;
+}
+tr:nth-last-child(n+9) input[type="text"], input[ type="tel"] {
+    border: 1px solid #f00;
+    box-shadow: 0 0 3px #f00;
+}
+tr:last-child {
+    color: red;
+    text-align: center;
+}
+
+

@@ -1,6 +1,6 @@
-input[type="radio"]:indeterminate + label {
+input:indeterminate + label {
     color: #00f;
 }
-input[type]:checked + label {
-    color: red;
+input:checked + label {
+    color: #f00;
 }

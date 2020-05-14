@@ -1,0 +1,23 @@
+div {
+    width: 400px;
+    padding: 7px;
+}
+
+.title_1 {
+    font-size: 40px;
+    color: #008000;
+    font-weight: bolder;
+}
+
+.title_2 {
+    font-size: 30px;
+    color: #f5b811;
+    font-weight: bolder;
+}
+
+.i {
+    font-style: italic;
+}
+.b {
+    font-weight: bold;
+}

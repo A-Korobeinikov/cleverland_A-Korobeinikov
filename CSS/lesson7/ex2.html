@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p {
+            width: 500px;
+            padding: 1em;
+        }
+        #p_1 {
+            background-color: orange;
+            text-align: left;
+        }
+        #p_2 {
+            background-color: violet;
+            text-align: right;
+        }
+        .first {
+            text-decoration: underline dotted;
+        }
+        .second {
+            text-decoration: underline dashed;
+        }
+        .third {
+            text-decoration: underline wavy;
+        }
+        span:nth-of-type(1) {
+            text-decoration: underline dotted;
+        }
+        span:nth-of-type(2) {
+            text-decoration: underline dashed;
+        }
+        span:nth-of-type(3) {
+            text-decoration: underline wavy;
+        }
+
+    </style>
+</head>
+<body>
+    <p id="p_1">
+        <span class="first">Первое</span> предложение абзаца.<br>
+        <span class="second">Второе</span> более длинное предложение абзаца.<br>
+        <span class="third">Третье</span> и последнее предложение абзаца.
+      </p>
+       
+      <p id="p_2">
+        <span>Первое</span> предложение абзаца.<br>
+        <span>Второе</span> более длинное предложение абзаца.<br>
+        <span>Третье</span> и последнее предложение абзаца.
+      </p>
+    
+</body>
+</html>

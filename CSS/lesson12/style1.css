@@ -1,0 +1,58 @@
+.container {
+    max-width: 980px;
+    margin: 0 auto; 
+}
+
+.photo-grid {
+    position: relative;
+    margin-top: 160px;
+    text-align: center;
+    padding: 10px;
+}
+
+img {
+    position: relative;
+    height: 172px;
+    background-color: #fff;
+    box-shadow: 0 0 5px #000;
+    float: left;
+    margin-top: -100px;
+    padding: 10px;
+    z-index: 2;
+    transition: all 0.4s ease-in 0s;
+}
+
+img:nth-child(even) {
+    transform: translateX(10px) rotate(8deg);
+}
+
+img:nth-child(odd) {
+    transform: translate(40px, 30px) rotate(-5deg);
+}
+
+img:nth-child(3n) {
+    transform: translate(7px 40px) rotate(-15deg);
+}
+
+img:nth-child(5n) {
+    left: 5px;
+    top: 20px;    
+}
+
+img:nth-child(6n) {
+    transform: translate(-10px, 30px) rotate(15deg);
+}
+
+img:nth-child(9n) {
+    transform: translate(-10px, 30px) rotate(22deg);
+}
+
+img:hover {
+    box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.6);
+    transform: rotate(360deg) scale(1.5);
+    z-index: 10;
+}
+
+.clear {
+    clear: left right;
+}

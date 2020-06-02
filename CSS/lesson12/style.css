@@ -1,0 +1,58 @@
+.container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 250px;
+    height: 250px;
+    background-color: #555555;
+    margin: auto;
+}
+
+.tape {
+    position: absolute;
+    width: 70px;
+    height: 80px;
+    background-color: #e00303;
+    left: 120px;
+    top: 35px;
+    font-size: 25px;
+    color: #fff;
+    font-weight: bold;
+    text-align: 50%;
+    line-height: 80px;
+    vertical-align: middle;
+    border-radius: 0 10px 0 0;    
+}
+
+.tape::after {    
+    content: '';
+    position: absolute;
+    left: 10px;
+    top: 55px;
+    width: 50px;
+    height: 50px;
+    background-color: #e00303;
+    transform: scaleY(0.5) rotate(45deg);
+}
+
+.wrap {
+    position: absolute;
+    left: 115px;
+    top: 35px;
+    width: 20px;
+    height: 12px;
+    background-color: #e00303;
+}
+
+.wrap::before {
+    content: '';
+    position: absolute;
+    left: -5px;
+    top: 0px;
+    width: 10px;
+    height: 12px;
+    background-color: #8d0303;
+    border-radius: 5px 5px 0 0;
+}

@@ -1,0 +1,22 @@
+table {
+    empty-cells: hide;
+}
+td {
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 120px;
+    padding: 15px;
+    background-color: #b7df92;
+    text-align: center;
+    font-size: 24px;
+}
+
+tr:first-child td {
+    background: linear-gradient(to top, #8af004, #6ab623);
+    color: #fff;
+}
+ 
+td:first-of-type {
+    background: linear-gradient(45deg, #8af004, #6ab623);
+    color: #fff;
+}

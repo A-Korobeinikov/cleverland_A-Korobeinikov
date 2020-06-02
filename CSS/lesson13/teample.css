@@ -1,0 +1,44 @@
+header, aside, article, footer, section, nav {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+    border: #ccc 2px solid;
+    padding: 5px 10 px;
+}
+
+aside, article, section {
+    background-color: #ebedf5;
+}
+
+header {
+    background-color: #4d68a2;
+}
+
+#topmenu {
+    background-color: #313e99;
+    color: #fff;
+}
+
+p {
+    margin: 2px;
+}
+
+.left {
+    float: left;
+    width: 250px;
+}
+
+.right {
+    float: right;
+    width: 250px;
+}
+
+.conter {
+    margin: 0 280px;
+}
+
+footer {
+    background-color: #4d68a2;
+    color: #fff;
+    clear: both;
+}
+

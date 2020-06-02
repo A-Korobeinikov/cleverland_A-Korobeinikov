@@ -1,0 +1,92 @@
+.ex1 {
+    margin-bottom: 50px;
+}
+.div_1 {
+    margin-top: 30px;
+    margin-left:  35px;
+    width: 300px;
+    height: 400px;
+    padding: 15px;
+    border: 7px dashed green;
+}
+
+.div_2 {
+    width: 70px;
+    height: 50px;
+    background: radial-gradient(35px 35px at 10px 10px, #00ffff, #ffffff);
+    padding: 5px;
+    float: left;
+    border: 1px solid orange;
+}
+
+.div_3 {
+    width: 70px;
+    height: 50px;
+    background: linear-gradient(45deg, #0000ff, #fff);
+    padding: 5px;
+    margin: 2px;
+    border: 1px dotted red;
+    float: right;
+}
+
+.div_3:hover {
+    opacity: 0.8;
+}
+.ex2 {
+    margin-bottom: 50px;    
+}
+.ex2_1 {
+    
+    top: 30px;
+    left: 35px;
+    width: 500px;
+    height: 200px;
+    padding: 15px;
+    border: 5px dashed blue;
+    margin-bottom: 50px;
+    background: yellow;
+}
+
+.ex2_2 {
+    float: left;
+    width: 200px;
+    height: 100px;
+    padding: 5px;
+    border: 2px solid blue;
+    overflow: scroll;
+    
+}
+
+.ex2_3 {
+    float: right;
+    width: 200px;
+    height: 100px;
+    padding: 5px;
+    border: 2px dotted blue;
+    overflow: auto;
+}
+
+.ex3 {
+    position: absolute;
+    width: 500px;
+    height: 300px;
+    background: #444444;
+}
+
+.boxshadow {
+    position: relative;
+    top: 50px;
+    left: 50px;
+    width: 300px;
+    height: 100px;
+    border-radius: 10px;
+    background: #00ffff;
+    box-shadow: 14px 14px 1px 1px rgba(255, 2, 2, 0.973);
+
+}
+.text {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 24px;
+    text-align: center;
+    line-height: 100px;
+}

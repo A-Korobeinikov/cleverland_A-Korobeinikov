@@ -1,0 +1,25 @@
+.botton {
+    width: 200px;
+    padding: 10px;
+    background: linear-gradient(to top, #4fbd24, #41ec03);
+    border: 0 solid;
+    border-radius: 10px;
+    outline: 1px solid white;
+    outline-offset: -5px;    
+}
+
+.botton:hover {
+    background: linear-gradient(to top, #f9a80c, #fbc157);
+}
+
+.botton:active {
+    background: linear-gradient(to top, #f9a866, #fae069);
+}
+
+.text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    padding-left: 25px;
+}

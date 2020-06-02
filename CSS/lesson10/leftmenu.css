@@ -1,0 +1,20 @@
+.left-menu {
+    margin: 50px;
+    padding: 20px;
+    width: 200px;
+}
+
+a {
+    display: block;
+    border-radius: 5px;
+    border: 1px solid #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin: 1px auto;
+    padding: 20px;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: tomato;
+}

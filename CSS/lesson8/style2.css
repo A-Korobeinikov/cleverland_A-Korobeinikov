@@ -1,0 +1,36 @@
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    overflow: hidden;
+}
+td {
+    border: 1px solid black; 
+    position: relative;   
+}
+
+td:first-of-type {
+    background-color: darkorchid;
+    color: #ffffff;
+    width: 100px;
+}
+
+tr:first-child td {
+    background: darkblue;
+    color: #ffffff;
+}
+
+
+td:hover::after {
+    background-color: rgba(140, 140, 255, 0.4);
+    content: "";
+    position: absolute;
+    height: 2000vh;
+    left: 0;
+    top: -1000vh;
+    width: 100%;
+    z-index: -1;
+}
+
+tr:hover {
+    background-color: rgba(140, 140, 255, 0.4);
+}
